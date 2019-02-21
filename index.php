@@ -8,6 +8,10 @@ $data = $api->items->store();
 var_dump($data);
 ?>
 
+<!doctype html>
+<html lang="en">
+<html>
+
  <?php
            for ($i = 0; $i < count($data['items']); $i ++) {
                ?>
@@ -24,3 +28,4 @@ var_dump($data);
             <?php
         }
         ?>
+ </html>
